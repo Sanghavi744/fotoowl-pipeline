@@ -1,0 +1,40 @@
+{
+  "image_paths": [
+    "AHD_6008.jpg", "AHD_6020.jpg", "AHD_6052.jpg", "AHD_6065.jpg",
+    "AHD_6076.jpg", "AHD_6106.jpg", "AHD_6148.jpg", "AHD_6157.jpg",
+    "AHD_6160.jpg", "AHD_6184.jpg", "DSC_4491.jpg", "DSC_4496.jpg"
+  ],
+  "user_prompt": "Cinematic South Indian wedding reel, slow and emotional, warm golden tones, minimal captions, fade transitions",
+  "intent": {
+    "pacing": "slow",
+    "visual_style": "cinematic",
+    "caption_tone": "emotional",
+    "transition_pref": "fade",
+    "raw_prompt": "Cinematic South Indian wedding reel, slow and emotional, warm golden tones, minimal captions, fade transitions"
+  },
+  "image_analyses": [
+    { "path": "AHD_6008.jpg",  "scene_description": "Bride in red silk saree looking down with a tender smile, ornate gold jewellery, soft bokeh background.", "detected_mood": "tender",   "quality_score": 0.96, "tags": ["bride", "bridal-portrait", "red-saree", "gold-jewellery"] },
+    { "path": "DSC_4491.jpg",  "scene_description": "Couple standing together under large tropical leaves, groom holds bride gently.", "detected_mood": "romantic",  "quality_score": 0.93, "tags": ["couple", "outdoor", "portrait", "haldi"] },
+    { "path": "DSC_6607.jpg",  "scene_description": "Bride seated on steps in red saree, golden light, relaxed elegant pose.", "detected_mood": "serene",    "quality_score": 0.91, "tags": ["bride", "outdoor", "golden-light", "seated"] },
+    { "path": "AHD_6202.jpg",  "scene_description": "Close detail shot of bridal mehndi and jewellery.", "detected_mood": "intimate",  "quality_score": 0.88, "tags": ["mehndi", "detail", "jewellery", "close-up"] },
+    { "path": "_ASL9923.jpg",  "scene_description": "Candid moment during ceremony, warm ambient light.", "detected_mood": "joyful",    "quality_score": 0.85, "tags": ["ceremony", "candid", "warm-light"] }
+  ],
+  "storyboard": {
+    "title": "A Day to Remember",
+    "total_duration_seconds": 24.0,
+    "narrative_arc": "opening -> emotional build -> intimate moments -> joyful close",
+    "scenes": [
+      { "scene_index": 0, "image_path": "AHD_6008.jpg",  "duration_seconds": 5.0, "caption": "A love story begins",     "transition": "fade", "animation": "zoom-in"  },
+      { "scene_index": 1, "image_path": "DSC_4491.jpg",  "duration_seconds": 5.0, "caption": "Together, always",        "transition": "fade", "animation": "pan-left" },
+      { "scene_index": 2, "image_path": "DSC_6607.jpg",  "duration_seconds": 5.0, "caption": "",                        "transition": "fade", "animation": "static"   },
+      { "scene_index": 3, "image_path": "AHD_6202.jpg",  "duration_seconds": 4.0, "caption": "Every detail, a memory",  "transition": "fade", "animation": "zoom-in"  },
+      { "scene_index": 4, "image_path": "_ASL9923.jpg",  "duration_seconds": 5.0, "caption": "",                        "transition": "fade", "animation": "pan-left" }
+    ]
+  },
+  "remotion_script": "see remotion_script_cinematic.tsx",
+  "compile_errors": [],
+  "retry_count": 0,
+  "max_retries": 3,
+  "final_video_path": "./sample_output/output_cinematic.mp4",
+  "failure_report": null
+}

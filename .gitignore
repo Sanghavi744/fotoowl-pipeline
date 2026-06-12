@@ -1,0 +1,8 @@
+.env
+venv/
+rag_store/
+__pycache__/
+*.pyc
+node_modules/
+remotion_project/node_modules/
+*.mp4

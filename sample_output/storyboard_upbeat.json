@@ -1,0 +1,55 @@
+{
+  "title": "Game On",
+  "total_duration_seconds": 10.0,
+  "narrative_arc": "immediate peak -> sustained energy -> victory close",
+  "scenes": [
+    {
+      "scene_index": 0,
+      "image_path": "play724.jpg",
+      "duration_seconds": 1.5,
+      "caption": "GAME ON",
+      "transition": "cut",
+      "animation": "zoom-in"
+    },
+    {
+      "scene_index": 1,
+      "image_path": "play731.jpg",
+      "duration_seconds": 1.5,
+      "caption": "ALL IN",
+      "transition": "cut",
+      "animation": "static"
+    },
+    {
+      "scene_index": 2,
+      "image_path": "play733.jpg",
+      "duration_seconds": 1.5,
+      "caption": "",
+      "transition": "cut",
+      "animation": "zoom-in"
+    },
+    {
+      "scene_index": 3,
+      "image_path": "play735.jpg",
+      "duration_seconds": 1.5,
+      "caption": "THE GRIND",
+      "transition": "cut",
+      "animation": "static"
+    },
+    {
+      "scene_index": 4,
+      "image_path": "play726.jpg",
+      "duration_seconds": 2.0,
+      "caption": "NEVER STOP",
+      "transition": "cut",
+      "animation": "zoom-in"
+    },
+    {
+      "scene_index": 5,
+      "image_path": "play732.jpg",
+      "duration_seconds": 2.0,
+      "caption": "",
+      "transition": "cut",
+      "animation": "static"
+    }
+  ]
+}

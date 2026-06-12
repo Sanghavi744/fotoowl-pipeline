@@ -1,0 +1,47 @@
+{
+  "title": "A Day to Remember",
+  "total_duration_seconds": 24.0,
+  "narrative_arc": "opening -> emotional build -> intimate moments -> joyful close",
+  "scenes": [
+    {
+      "scene_index": 0,
+      "image_path": "AHD_6008.jpg",
+      "duration_seconds": 5.0,
+      "caption": "A love story begins",
+      "transition": "fade",
+      "animation": "zoom-in"
+    },
+    {
+      "scene_index": 1,
+      "image_path": "DSC_4491.jpg",
+      "duration_seconds": 5.0,
+      "caption": "Together, always",
+      "transition": "fade",
+      "animation": "pan-left"
+    },
+    {
+      "scene_index": 2,
+      "image_path": "DSC_6607.jpg",
+      "duration_seconds": 5.0,
+      "caption": "",
+      "transition": "fade",
+      "animation": "static"
+    },
+    {
+      "scene_index": 3,
+      "image_path": "AHD_6202.jpg",
+      "duration_seconds": 4.0,
+      "caption": "Every detail, a memory",
+      "transition": "fade",
+      "animation": "zoom-in"
+    },
+    {
+      "scene_index": 4,
+      "image_path": "_ASL9923.jpg",
+      "duration_seconds": 5.0,
+      "caption": "",
+      "transition": "fade",
+      "animation": "pan-left"
+    }
+  ]
+}
