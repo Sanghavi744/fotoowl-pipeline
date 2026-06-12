@@ -219,16 +219,6 @@ The `sample_output/` folder contains:
 
 ---
 
-## Known Limitations
-
-- **Image analyser uses filename context only** (not actual vision) due to free-tier quota constraints on vision APIs. Upgrading to Gemini vision improves analysis quality.
-- **RAG seed is minimal** — 3 styles, 4 API snippets. Production would scrape full Remotion docs and expand to 20+ style templates.
-- **Images processed serially** — could be parallelised with `asyncio.gather`.
-- **No streaming progress** — Remotion rendering takes 1–2 min with no terminal feedback.
-- **With more time:** add a feedback loop where the rendered video's first frame is vision-checked against the storyboard's expected opening scene, closing the generation loop.
-
----
-
 ## Author
 
 Sanghavi K.
